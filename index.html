@@ -56,23 +56,56 @@
 </head>
 
 <body>
-  <header>
-    <div class="navbar">
-      <div class="logo">
-        <img src="img/JC.jpeg" alt="JCL Logo" style="width: 100%;" />
-      </div>
-      <nav style="padding: 0; color: white;">
-        <ul style="margin: 0; padding: 0; list-style: none;">
-          <li><a href="#" style="color: chartreuse;">Home</a></li>
-          <li><a href="sobre.html">About Us</a></li>
-          <li><a href="servicos.html">Services</a></li>
-          <li><a href="contacto.html">Contact</a></li>
-          <li><a href="onde.html">Where We Operate</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
+
+<!-- Bootstrap CSS (inclua no <head>) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <header>
+    <style>
+       @media (max-width: 768px) {
+        #logo{
+          display: none !important;
+        }
+       }
+    </style>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+    <!-- Botão hamburguer à esquerda -->
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" 
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Logo -->
+    <a id="logo" class="navbar-brand d-flex align-items-center" href="#">
+      <img src="img/JC.jpeg" alt="JCL Logo" id="logo" style="height: 50px;">
+    </a>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" style="color: chartreuse;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html" style="color:blue">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicos.html" style="color:blue">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html" style="color:blue">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="onde.html" style="color:blue">Where We Operate</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+  
+  <!-- Bootstrap JS (antes do fechamento do </body>) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <main class="hero">
     <div class="overlay">
       <div class="hero-content">
@@ -87,7 +120,7 @@
     </div>
   </main>
 
-  <a href="" class="fala">
+  <a href="" class="fala" style="text-decoration: none !important;">
     <div>
       Talk to our team
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right seta"></i>
@@ -96,11 +129,11 @@
 
   <section style="color:#dd9933">
     <div class="corpo">
-      <div class="texto">
-        <br><br><br><br><br><br><br><br>
-        We operate in the management of cargo in ports, offering services for the movement, <br> storage, handling and distribution of different types of cargo.
-        We have a wide range of specialized equipment and machinery for cargo handling, <br> as well as a team of professionals trained to manage the processes of storage, handling and distribution of goods.
-        
+      <div class="texto" style="text-align: right;">
+        <br><br>
+        We operate in the management of cargo in ports, <br>
+        offering services for the movement,  storage, handling and distribution <br> of different types of cargo.
+        We have a wide range of specialized equipment and machinery <br> for cargo handling,  as well as a team of professionals trained to manage the processes of storage,  <br> handling   and distribution of goods.
       </div>
     </div>
   </section>
@@ -114,13 +147,13 @@
             <i class="bi bi-facebook fs-4" style="color:#f0f0f0"></i>
           </a>  &nbsp; &nbsp;
           <a href="https://wa.me/258844673746" target="_blank" aria-label="WhatsApp">
-            <i class="bi bi-whatsapp fs-4 text-success" style="color:#f0f0f0"></i>
+            <i class="bi bi-whatsapp fs-4 text-success" style="color:#f0f0f0 !important"></i>
           </a> &nbsp; &nbsp;
           <a href="tel:+258844673746" aria-label="Phone">
-            <i class="bi bi-telephone fs-4 text-primary" style="color:#f0f0f0"></i>
+            <i class="bi bi-telephone fs-4 text-primary" style="color:#f0f0f0 !important"></i>
           </a> &nbsp; &nbsp;
           <a href="https://instagram.com/seu_perfil" target="_blank" aria-label="Instagram">
-            <i class="bi bi-instagram fs-4 text-danger" style="color:#f0f0f0"></i>
+            <i class="bi bi-instagram fs-4 text-danger" style="color:#f0f0f0 !important"></i>
           </a>
         </div>
       </div>
@@ -140,7 +173,7 @@
          
         <div class="coluna links-coluna">
           <ul>
-            <br><br><br>
+            <br>
             <li><a href="contacto.html">Request a Quote</a></li><br>
             <li><a href="onde.html">Where We Operate</a></li><br>
             <li><a href="#">Privacy Policy</a></li>
@@ -149,8 +182,11 @@
 
       <div class="coluna endereco-coluna">
         <strong>Head Office Address:</strong><br />
-        Rua São Tome - first floor, number 54, flat 1, in Maquinino Neighborhood, Q5,
-        UC A
+        <p>
+          Rua São Tome - first floor, number 54, flat 1, in Maquinino Neighborhood, Q5,
+          UC A
+        </p>
+
         <br/>
         Beira City<br /><br />
         <strong>Phone:</strong> (+258) 844673746<br /><br>
