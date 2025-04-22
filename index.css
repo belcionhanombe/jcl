@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    background-image: url("img/Design.png");
+}
+
+header {
+    background-color: white;
+    color: blue;
+    padding: 7px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.langs a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    position: relative;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    color: blue;
+    text-align: left;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.highlight-orange {
+    color: orange;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-left: 10% !important;
+}
+
+.info-box {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn-contact {
+    background-color: orange;
+    color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.blp-benefits {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.blp-benefits h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.benefit {
+    background-color: #ff6600;
+    padding: 20px;
+    color: blue;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ff7a00;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.blp-benefits1 {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.blp-benefits1 h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.blp-benefits1 .underline1 {
+    text-decoration: underline;
+}
+
+.benefits-grid1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.benefit-item1 {
+    width: 200px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+.rodape1 {
+    background-color: white;
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+.mapa1 iframe {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Rodape */
+
+.rodape {
+    background-color: #ff7f00;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .rodape-conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+  }
+  
+  .coluna {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .newsletter button {
+    background-color: #fbb03b;
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .redes img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .links-coluna ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links-coluna ul li {
+    margin: 5px 0;
+  }
+  
+  .links-coluna ul li a,
+  .links-coluna .idiomas a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .rodape-bottom {
+    background-color: #003366;
+    color: white;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  
+  .rodape-bottom a {
+    color: white;
+    text-decoration: none;
+  }
+  

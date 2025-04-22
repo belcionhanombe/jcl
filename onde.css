@@ -1,0 +1,165 @@
+.onde-atuamos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 60px;
+    background-color: #f5f5f5;
+  }
+
+  .onde-texto {
+    max-width: 500px;
+  }
+
+  .onde-texto h4 {
+    color: #888;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .onde-texto h2 {
+    color: #ff7a00;
+    font-size: 36px;
+    margin: 0 0 10px;
+  }
+
+  .onde-texto h2 span {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .onde-texto p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .onde-texto strong {
+    font-weight: 600;
+  }
+
+  .onde-mapa img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 900px) {
+    .onde-atuamos {
+      flex-direction: column;
+      padding: 40px 20px;
+    }
+
+    .onde-texto {
+      text-align: center;
+    }
+  }
+
+
+  .secao-porto {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #f1f1f1;
+    padding: 60px 40px;
+  }
+
+  .secao-texto {
+    background-color: #f1f1f1;
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .secao-texto p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .secao-texto strong {
+    font-weight: 600;
+  }
+
+  .info-boxes {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+
+  .info-box {
+    text-align: center;
+  }
+
+  .info-box h4 {
+    color: #0050a0;
+    margin: 0;
+    font-size: 36px;
+  }
+
+  .info-box small {
+    display: block;
+    margin-top: 4px;
+    color: #666;
+  }
+
+  .info-box span {
+    color: #0050a0;
+    font-weight: 500;
+    border-bottom: 2px solid #0050a0;
+  }
+
+  .btn-contato {
+    align-self: flex-start;
+    background-color: #ff7a00;
+    color: white;
+    padding: 14px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+
+  .btn-contato:hover {
+    background-color: #e06a00;
+  }
+
+  .secao-imagem {
+    flex: 1;
+  }
+
+  .secao-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: 900px) {
+    .secao-porto {
+      flex-direction: column;
+    }
+
+    .secao-texto {
+      padding: 20px;
+    }
+
+    .info-boxes {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .btn-contato {
+      align-self: center;
+    }
+  }

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JCL - Logistics</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="servicos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="img/JC.jpeg" alt="" style="width: 100%;">
+      </div>
+      <nav style="color:white; color:blue">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">About Us</a></li>
+          <li><a href="#" style="color:chartreuse">Services</a></li>
+          <li><a href="contacto.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <style>
+    .info-box {
+      background-image: url("img/JC1.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: 50vh;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+
+<!-- Top with Tabs -->
+<section class="servicos-topo">
+  <h2>Discover <strong>our services</strong></h2>
+  <div class="servicos-tabs">
+    <div id="aba1" class="tab active" data-tab="portuarias" style="background-color: rgba(240, 230, 230, 0.5);">
+      <strong>Port Operations</strong>
+    </div>
+    <div id="aba2" class="tab" data-tab="armazenagem" style="background-color: rgba(240, 230, 230, 0.5);">
+      <strong>Cargo Storage</strong>
+    </div>
+    <div id="aba3" class="tab" data-tab="consultoria" style="background-color: rgba(240, 230, 230, 0.5);">
+      <strong>Specialized Port Logistics Consulting</strong>
+    </div>
+    <div id="aba4" class="tab" data-tab="transporte" style="background-color: rgba(240, 230, 230, 0.5);">
+      <strong>Cargo Transport</strong>
+    </div>
+  </div>
+</section>
+
+<!-- Tab Content -->
+<section class="servico-conteudo">
+  <div class="texto ">
+
+    <div class="tab-content active" id="portuarias">
+      <h3><span style="color: #f28500;">Port</span> Operations</h3>
+      <p><b>Efficient Port Operations for a Connected World!</b><br>
+      Ensure speed and safety in your port operations with our expertise. Optimize every process and reduce costs with innovative and practical solutions that keep your cargo moving without delays.</p>
+    </div>
+
+    <div class="tab-content" id="armazenagem">
+      <h3><span style="color: #f28500;">Cargo</span> Storage</h3>
+      <p><b>Cargo Storage: Security and Organization Within Reach!</b>
+        Your cargo, our commitment! We offer complete storage solutions, with control systems that ensure maximum safety, accessibility, and efficiency in handling your products.</p>
+    </div>
+
+    <div class="tab-content" id="consultoria">
+      <h3><span style="color: #f28500;">Specialized</span> Consulting</h3>
+      <p><b>Specialized Port Logistics Consulting: Your Port Success Starts Here</b>
+        Rely on our expertise to transform your port logistics! We offer strategic consulting to optimize processes, reduce costs, and improve the performance of your operations, always focused on concrete results.</p>
+    </div>
+
+    <div class="tab-content" id="transporte">
+      <h3><span style="color: #f28500;">Cargo</span> Transport</h3>
+      <p><b>Cargo Transport: Fast, Safe and Efficient</b>
+        With our modern fleet and specialized team, your cargo transport has never been so safe and fast. We guarantee on-time deliveries, even on the most challenging routes, with total confidence in handling and care for your cargo.</p>
+    </div>
+
+    <div class="botoes">
+      <button class="btn">Get in <strong>touch</strong> <span>→</span></button>
+    </div>
+  </div>
+  <div class="info-box">
+  </div>
+</section>
+
+<section class="quality-section">
+  <div class="quality-container">
+    <div class="quality-texto" style="text-align: justify;">
+      <h4>JCL - JOINING CONTINENTS LTD</h4>
+      <h2><span>Quality</span> <strong>Guarantee</strong></h2>
+      <p>
+        With decades of experience in its field, JCL offers specialized services in port logistics, focusing on speed, safety, and efficiency in operations.
+        <br><br>
+        With a highly qualified team and modern equipment, the company is prepared to meet customer needs at every stage of the logistics process related to international trade, including port operations, storage, transportation, and distribution of cargo, from port operations to specialized consulting.
+      </p>
+    </div>
+
+    <div class="quality-destaques">
+      <div class="quality-grid">
+        <div class="q-item">
+          <script src="https://unpkg.com/feather-icons"></script>
+          <i data-feather="user"></i>
+          <p><span>Personalized</span><br>Service</p>
+        </div>
+        <div class="q-item">
+          <i data-feather="truck"></i>
+          <p><span>Quality</span><br>Service</p>
+        </div>
+        <div class="q-item">
+          <i data-feather="shield"></i>
+          <p><span>Security</span><br>and productivity</p>
+        </div>
+        <div class="q-item">
+          <i data-feather="activity"></i>
+          <p><span>Speed</span><br>in operations</p>
+        </div>
+      </div>
+
+      <div class="quality-info-extra">
+        <strong>Own customs area<br></strong>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    feather.replace();
+  </script>
+</section>
+
+<footer class="rodape1">
+  <section class="rodape">
+    <div class="rodape-conteudo">
+      <div class="coluna logo-coluna">
+        <img src="img/JC.jpeg" alt="Logo" class="logo" />
+        <div class="redes d-flex gap-3">
+          <a href="https://facebook.com/seu_perfil" target="_blank" aria-label="Facebook">
+            <i class="bi bi-facebook fs-4" style="color:#f0f0f0"></i>
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://wa.me/258844673746" target="_blank" aria-label="WhatsApp">
+            <i class="bi bi-whatsapp fs-4 text-success" style="color:#f0f0f0"></i>
+          </a>
+          &nbsp;&nbsp;
+          <a href="tel:+258844673746" aria-label="Phone">
+            <i class="bi bi-telephone fs-4 text-primary" style="color:#f0f0f0"></i>
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://instagram.com/seu_perfil" target="_blank" aria-label="Instagram">
+            <i class="bi bi-instagram fs-4 text-danger" style="color:#f0f0f0"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="coluna links-coluna">
+        <ul>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email and subscribe to our newsletter" />
+            <button>➤</button>
+          </div>
+          <li><a href="index.html">Home</a></li><br>
+          <li><a href="sobre.html">About Us</a></li><br>
+          <li><a href="servicos.html">Services</a></li><br>
+          <li><a href="contacto.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="coluna links-coluna">
+        <ul>
+          <br><br><br>
+          <li><a href="contacto.html">Request a quote</a></li><br>
+          <li><a href="onde.html">Where We Operate</a></li><br>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="coluna endereco-coluna">
+        <strong>Head Office Address:</strong><br />
+        Rua São Tome - first floor, number 54, flat 1, Maquinino neighborhood, Q5, UC A<br />
+        City of Beira<br /><br />
+        <strong>Phone:</strong> (+258) 844673746<br /><br>
+        <strong>WhatsApp:</strong> (+258) 844673746
+      </div>
+    </div>
+
+    <div class="rodape-bottom">
+      <span>Logistics and Transport | All rights reserved</span>
+      <span>
+        <a href="https://bnhanombe.vercel.app/" style="text-decoration: 2px;">
+          Developed by Belcio
+        </a>
+      </span>
+    </div>
+  </section>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        contents.forEach(c => c.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+    });
+
+const infoBox = document.querySelector('.info-box');
+
+// Define imagens diferentes para cada aba
+const tabBackgrounds = {
+  portuarias: 'url("img/JC1.jpg")', // Imagem para Operações Portuárias
+  armazenagem: 'url("img/JC2.jpg")', // Imagem para Armazenagem de Cargas
+  consultoria: 'url("img/JC3.jpg")', // Imagem para Consultoria
+  transporte: 'url("img/JC4.jpg")' // Imagem para Transporte de Cargas
+};
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    // Remove a classe 'active' de todos os tabs
+    tabs.forEach(t => t.classList.remove('active'));
+
+    // Adiciona a classe 'active' apenas ao clicado
+    tab.classList.add('active');
+
+    // Pega o valor do atributo 'data-tab' da aba clicada
+    const target = tab.getAttribute('data-tab');
+
+    // Atualiza o background da info-box com a imagem correspondente
+    if (tabBackgrounds[target]) {
+      infoBox.style.backgroundImage = tabBackgrounds[target];
+    } else {
+      infoBox.style.backgroundImage = 'url("img/JC2.jpeg")'; // Imagem padrão
+    }
+  });
+});
+  </script>
+</footer>
