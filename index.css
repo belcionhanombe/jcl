@@ -51,7 +51,7 @@ nav a {
 
 .hero {
     height: 100vh;
-    background-image: url('img/bg.jpg');
+    background-image: url('img/cc.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -275,7 +275,12 @@ footer {
       width: 300px;
       margin-bottom: 20px;
     }
+    .logo {
+      height: 190px;
+    }
   }
+
+
 
   .rodape-bottom span {
     text-align: center;
