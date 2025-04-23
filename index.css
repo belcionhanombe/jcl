@@ -212,8 +212,7 @@ footer {
   }
   
   .logo {
-    width: 120px;
-    margin-bottom: 20px;
+    width: 190px;
   }
   
   .newsletter {
@@ -271,3 +270,13 @@ footer {
     text-decoration: none;
   }
   
+  @media screen and (min-width: 1024px) {
+    .logo {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .rodape-bottom span {
+    text-align: center;
+  }

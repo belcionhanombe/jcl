@@ -8,9 +8,8 @@
   <link rel="stylesheet" href="onde.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <style>
     .fala {
       width: 30%;
@@ -55,65 +54,61 @@
       font-size: 16px;
       color: #333;
     }
+
+    @media (max-width: 768px) {
+      #logo {
+        display: none !important;
+      }
+    }
   </style>
 </head>
 
 <body>
-<!-- Bootstrap CSS (inclua no <head>) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <header>
-    <style>
-       @media (max-width: 768px) {
-        #logo{
-          display: none !important;
-        }
-       }
-    </style>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
-    <!-- Botão hamburguer à esquerda -->
-    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" 
-      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+      <!-- Botão hamburguer à esquerda -->
+      <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" 
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Logo -->
-    <a id="logo" class="navbar-brand d-flex align-items-center" href="#">
-      <img src="img/JC.jpeg" alt="JCL Logo" id="logo" style="height: 50px;">
-    </a>
+      <!-- Logo -->
+      <a id="logo" class="navbar-brand d-flex align-items-center" href="#">
+        <img src="img/JC.jpeg" alt="JCL Logo" style="height: 50px;">
+      </a>
 
-    <!-- Menu -->
-    <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html" style="color: blue;">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sobre.html" style="color:blue">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="servicos.html" style="color:blue">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html" style="color:blue">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="onde.html" style="color:chartreuse">Where We Operate</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+      <!-- Menu -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" style="color: blue;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html" style="color:blue">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicos.html" style="color:blue">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html" style="color:blue">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="onde.html" style="color:chartreuse">Where We Operate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
-  
-  <!-- Bootstrap JS (antes do fechamento do </body>) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <section class="onde-atuamos">
     <div class="onde-texto">
-      <h4>PORTOS BLP</h4>
-      <h2>Locais<br><span>onde actuamos</span></h2>
-      <p>Os portos da Beira, Malawi <strong>importantes pontos de acesso</strong> e movimentação de cargas em Moçambique</p>
-      <p>Cada um deles tem sua particularidade e importância estratégica para a economia do país.</p>
+      <h4>Port of Beira</h4>
+      <h2>Locations<br><span></span></h2>
+      <p>
+        The ports of Beira, Malawi are important points of access and cargo handling in Mozambique. <br>
+        Each one has its own particularity and strategic importance for the country's economy.
+      </p>
     </div>
     <div class="onde-mapa">
       <img src="img/mapapoliticoafrica.jpg" alt="Mapa" style="width: 80%;">
@@ -122,15 +117,13 @@
 
   <section class="secao-porto">
     <div class="secao-texto" style="text-align: justify;">
-        <p>
-
-            <strong>
-                Porto da Beira <br> 
-            </strong>
-        O Porto da Beira, localizado na cidade da Beira, em Moçambique, é um dos principais centros logísticos e estratégicos do país, desempenhando um papel fundamental no comércio regional e internacional. Situado na costa do Oceano Índico, este porto serve como uma importante via de escoamento para as exportações e importações de Moçambique e dos países do interior, como Zimbábue, Zâmbia e Malawi. 
-    </p>
-        <a href="contacto.html"><button class="btn-contato">Entre<br>em contato →</button></a>
-      
+      <p>
+        <b>Port of Beira</b><br>
+        The Port of Beira, located in the city of Beira in Mozambique, is one of the country's main logistical and strategic centers, <br>
+        playing a key role in regional and international trade. Situated on the coast of the Indian Ocean, this port  <br>
+        serves as an important outlet for exports and imports from Mozambique and inland countries such as Zimbabwe, Zambia and Malawi.
+      </p>
+      <a href="contacto.html"><button class="btn-contato">Entre<br>em contato →</button></a>
     </div>
 
     <div class="secao-imagem">
@@ -138,23 +131,20 @@
     </div>
   </section>
 
-
-
-
   <footer class="rodape">
     <div class="rodape-conteudo">
       <div class="coluna logo-coluna">
-        <img src="img/JC.jpeg" alt="Logo" class="logo" />
+        <img src="img/JC.jpeg" alt="Logo"  class="logo" />
         <div class="redes d-flex gap-3">
           <a href="https://facebook.com/seu_perfil" target="_blank" aria-label="Facebook">
             <i class="bi bi-facebook fs-4" style="color:#f0f0f0 !important"></i>
-          </a>  &nbsp; &nbsp;
+          </a>
           <a href="https://wa.me/258844673746" target="_blank" aria-label="WhatsApp">
             <i class="bi bi-whatsapp fs-4 text-success" style="color:#f0f0f0 !important"></i>
-          </a> &nbsp; &nbsp;
+          </a>
           <a href="tel:+258844673746" aria-label="Telefone">
             <i class="bi bi-telephone fs-4 text-primary" style="color:#f0f0f0 !important"></i>
-          </a> &nbsp; &nbsp;
+          </a>
           <a href="https://instagram.com/seu_perfil" target="_blank" aria-label="Instagram">
             <i class="bi bi-instagram fs-4 text-danger" style="color:#f0f0f0 !important"></i>
           </a>
@@ -164,44 +154,43 @@
       <div class="coluna links-coluna">
         <ul>
           <div class="newsletter">
-            <input type="email" placeholder="Insira seu e-mail e assine nossa newsletter" />
+            <input type="email" placeholder="Enter your email and subscribe to our newsletter" />
             <button>➤</button>
           </div>
           <li><a href="index.html">Home</a></li><br>
-          <li><a href="sobre.html">Sobre nós</a></li><br>
-          <li><a href="servicos.html">Serviços</a></li><br>
-          <li><a href="contacto.html">Contacto</a></li>
-
+          <li><a href="sobre.html">About Us</a></li><br>
+          <li><a href="servicos.html">Services</a></li><br>
+          <li><a href="contacto.html">Contact</a></li>
         </ul>
       </div>
-       
+
       <div class="coluna links-coluna">
         <ul>
-          <br>
-          <li><a href="contacto.html">Quero uma cotação</a></li><br>
-          <li><a href="onde.html">Onde Atuamos</a></li><br>
-          <li><a href="#">Políticas de Privacidade</a></li>
-
+          <li><a href="contacto.html">Request a Quote</a></li><br>
+          <li><a href="onde.html">Where We Operate</a></li><br>
+          <li><a href="#">Privacy Policies</a></li>
         </ul>
       </div>
 
       <div class="coluna endereco-coluna">
-        <strong>Endereço sede:</strong><br />
+        <strong>Head Office Address:</strong><br />
         <p>
-          Rua São Tome-primeiro andar, número 54, flete 1, no Bairro do Maquinino, Q5,
-          UC A
+          Rua São Tome – first floor, number 54, apartment 1, in the Maquinino neighborhood, Q5, UC A
         </p>
         <br/>
-        Cidade da Beira<br /><br />
-        <strong>Telefone:</strong> (+258) 844673746<br /><br>
+        Beira City<br /><br />
+        <strong>Phone:</strong> (+258) 844673746<br /><br>
         <strong>WhatsApp:</strong> (+258) 844673746
       </div>
     </div>
 
-    <div class="rodape-bottom">
-      <span>Logística e Transporte | Todos os direitos reservados</span>
-      <span> <a href="https://bnhanombe.vercel.app/" style="text-decoration: 2px;"> Desenvolvido com por Belcio</a></span>
+    <div class="rodape-bottom" style="text-align: center !important;">
+      <span>Logistics and Transportation | All rights reserved</span>
+      <!-- <span><a href="https://bnhanombe.vercel.app/" style="text-decoration: 2px;"> Developed by Belcio</a></span> -->
     </div>
   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
