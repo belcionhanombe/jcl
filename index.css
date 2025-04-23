@@ -272,11 +272,11 @@ footer {
   
   @media screen and (min-width: 1024px) {
     .logo {
-      width: 300px;
+      width: 100%;
       margin-bottom: 20px;
     }
     .logo {
-      height: 87px;
+      height: 190px;
     }
   }
 
