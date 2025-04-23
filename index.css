@@ -280,3 +280,7 @@ footer {
   .rodape-bottom span {
     text-align: center;
   }
+
+  .newsletter {
+    width: 85% !important;
+  }
